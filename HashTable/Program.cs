@@ -46,6 +46,13 @@ namespace HashTable
             int frequency1 = linkedHashMap.Get("paranoid");
             Console.WriteLine(frequency1);
 
+            //UC_3:Remove particular word from the paragraph
+
+            linkedHashMap.Remove("avoidable");
+            int frequency2 = linkedHashMap.Get("avoidable");
+
+            Console.WriteLine(frequency2);
+
         }
     }
 }
